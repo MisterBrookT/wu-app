@@ -1,5 +1,22 @@
 # Changelog
 
+## v0.3.0 — 2026-06-05 (evening) — Luxury & zero-friction
+
+### A luxury aesthetic
+- New type system: **Cormorant Garamond** (display serif) + **Plus Jakarta Sans** (body) + Geist Mono (labels).
+- **Bronze** metallic accents throughout — the luxury signal.
+- In mode writes in a warm serif canvas; Out mode in cool steel tones.
+- Layered warm shadows, refined spacing, larger reading sizes.
+
+### Out mode — zero friction
+- **Just dump your mind.** Type a worry, a list, a half-formed plan — Wu parses it into clear next-actions and sorts them into Today / This Week / Someday automatically. You only confirm.
+- AI-suggested layers are editable (click to re-sort) before you commit (⌘↵).
+- **Proactive companion**: a quiet morning prompt ("which one would the person you want to become do first?") and an evening reflection ("are you a little more the person you want to be?"), once a day.
+
+### Under the hood
+- Light tasks (titles, parsing) run on the faster Claude Haiku.
+- Reasoning overhead trimmed for snappier, cheaper responses.
+
 ## v0.2.1 — 2026-06-05 (afternoon)
 
 ### Out mode — GTD + Atomic Habits
