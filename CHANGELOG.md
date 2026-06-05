@@ -1,10 +1,23 @@
 # Changelog
 
-## v0.2.0 — 2026-06-04
+## v0.2.0 — 2026-06-05
 
-### Renamed
-- Product officially renamed to **Wu（悟）** — ancient wisdom, daily practice.
-- Updated `productName`, `identifier`, i18n strings, and package name across the codebase.
+### Reflect / Act dual-mode
+- **Reflect mode** (warm) — the existing writing + AI reflection surface, now clearly named.
+- **Act mode** (cool) — new two-column view: today's tasks on the left, quick Capture to inbox on the right.
+- **Shift+Tab** switches between modes instantly, from anywhere — even inside the editor.
+- The whole app shifts color tone: warm amber (Reflect) ↔ cool blue-grey (Act).
+- Mode badge in the bottom-right corner shows which mode you're in.
+
+### Wu identity
+- Renamed from Mira to **Wu（悟）** throughout the app.
+- Empty-state wordmark changed to italic serif (Wu).
+- Tooltip and onboarding text updated.
+
+### Codebase
+- Crate renamed `mira` → `wu`, lib renamed `mira_lib` → `wu_lib`.
+- Updater endpoint now points to `wu-app` public releases repo.
+- Local project directory renamed `mira/` → `wu/`.
 
 ## v0.1.0 — 2026-06-03
 
