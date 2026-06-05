@@ -1,5 +1,28 @@
 # Changelog
 
+## v0.2.1 — 2026-06-05 (afternoon)
+
+### Out mode — GTD + Atomic Habits
+- **Three-layer task view**: Today / This Week / Someday, with a smooth sliding tab indicator.
+- **TaskItem animations**: check draws in (200ms stroke-dashoffset) → strikethrough → row collapses out (350ms).
+- **Promote button** ↑: move tasks up a layer (Someday→Week→Today).
+- **Inbox Clarify panel**: click any inbox item → panel slides in from right → press 1/2/3 to decide the layer → item moves to tasks, inbox marked done.
+- **HabitsSection**: collapsible, streak counter, 7-day heat dots, check-in with spring emoji bounce, identity toast ("I am the kind of person who…").
+- **Data**: `tasks.md` (three-layer GFM checklist) + `habits.json` (structured habit data).
+
+### In mode — Stoic
+- Ambient breathing animation (8s cycle, pauses while typing) — like candlelight, not a strobe.
+- Philosophy quote library (19 quotes from Marcus Aurelius, Laozi, Confucius, etc.) appears 8s after writing stops. Click to dismiss.
+- Multi-turn conversation: reply bar in ReflectionPane, Enter to send, Escape to clear. Wu's reflection is aware of today's tasks and inbox captures.
+
+### Zero-friction onboarding
+- First launch automatically creates `~/Documents/Wu` — no folder picker needed.
+- Vault path visible in Settings → Preferences, with a "Change…" option.
+
+### Global
+- Mode switch animation upgraded (filter brightness + saturate, 420ms transition).
+- In/Out mode badge (replaces Reflect/Act).
+
 ## v0.2.0 — 2026-06-05
 
 ### Reflect / Act dual-mode
